@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAutomationCucumberSuite" duration-ms="9518" started-at="2019-07-16T14:17:29Z" finished-at="2019-07-16T14:17:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberframework.runner.TestRunner@51dcb805]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CucumberTestNGTest" duration-ms="9518" started-at="2019-07-16T14:17:29Z" finished-at="2019-07-16T14:17:38Z">
+      <class name="com.cucumberframework.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumberframework.runner.TestRunner@51dcb805]" name="setUpClass" is-config="true" duration-ms="120" started-at="2019-07-16T14:17:29Z" finished-at="2019-07-16T14:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberframework.runner.TestRunner@51dcb805]" name="runScenario" duration-ms="9293" started-at="2019-07-16T14:17:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-16T14:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Title from Main page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I want to verify the UI and functional validations from Main page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumberframework.runner.TestRunner@51dcb805]" name="tearDownClass" is-config="true" duration-ms="63" started-at="2019-07-16T14:17:38Z" finished-at="2019-07-16T14:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumberframework.runner.TestRunner -->
+    </test> <!-- CucumberTestNGTest -->
+  </suite> <!-- TestAutomationCucumberSuite -->
+  <suite name="AllTest" duration-ms="0" started-at="2019-07-16T14:17:38Z" finished-at="2019-07-16T14:17:38Z">
+    <groups>
+    </groups>
+  </suite> <!-- AllTest -->
+</testng-results>
